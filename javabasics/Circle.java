@@ -6,7 +6,7 @@ class Circle
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the radius of the circle:");
         double rad=sc.nextDouble();
-        double area=PI *rad*rad;
+        double area=Math.PI *rad*rad;
         System.out.println("The area of circle:"+area);
         sc.close();
      }
